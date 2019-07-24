@@ -1,0 +1,112 @@
+html,body{
+      min-height:100%;
+      /*font-family: 'Playfair Display', serif;*/
+      /*font-family: 'Encode Sans Condensed', sans-serif;*/
+      /*font-family: 'Roboto', sans-serif;*/
+      font-family: 'Oswald', sans-serif;
+     } 
+		
+	main{
+		display:block;
+		overflow:hidden;
+		position:relative;
+	}
+
+	.content{
+		-webkit-box-flex: 1;
+    -ms-flex-positive: 1;
+    flex-grow: 1;
+	}
+
+	header, nav, section {
+	    display: block;
+	}
+
+	main header{
+		position:relative;
+		display:block;
+	}
+	
+	.hero-wrapper{
+		background: #343a40;  
+	/*background: -webkit-linear-gradient(left, #C4E0E5, #4CA1AF);
+	background: -o-linear-gradient(left, #C4E0E5, #4CA1AF);
+	background: linear-gradient(to right, #C4E0E5, #4CA1AF); */
+	}
+
+	@media (min-width: 670px){
+		.hero-wrapper {
+		    display: -webkit-box;
+		    display: -ms-flexbox;
+		    display: flex;
+		    -webkit-box-align: center;
+		    -ms-flex-align: center;
+		    align-items: center;
+		    height: 350px;
+		}
+	}
+
+	@media (min-width: 880px){
+		.hero-wrapper {
+		    height: 450px;
+		}
+	}	
+
+	@media (max-width: 669px){
+		.hero-wrapper {
+			 padding-top:150px;
+		    height: 50vh;
+		    position:relative;
+		}
+	}
+
+	span.mesh{
+		position:absolute;
+		bottom:-5px;
+		left:0;
+		right:0;
+		background:linear-gradient(rgba(255,255,255,0),rgba(255,255,255,.35) 50%,rgba(255,255,255,1) 100%);
+		display:block;
+		z-index:3;
+		height:150px;
+	}
+
+	
+
+	.hero-inner{
+		width:100%;
+		max-width:600px;
+		margin:0 auto;
+		position:relative;
+		z-index:5;
+	}
+
+     .navbar-brand{
+     	font-family: 'reklame';
+     	font-size:1.9rem;
+     	letter-spacing: 0.05rem;
+     	background:#fff;
+     	border-right:7px solid #000;
+     }
+
+     nav{
+     	position:absolute;
+     	width:100%;
+     	background:transparent;
+     	z-index:2;
+     }
+
+     .scrollDown{
+     	opacity:0.5;
+     	margin:15px auto;
+     }
+
+     .pageTitle{
+     	font-size:36px;
+     	font-weight:700;
+     	text-transform:uppercase;
+     	color:#fff;
+     	line-height:38px;
+     }
+
+  

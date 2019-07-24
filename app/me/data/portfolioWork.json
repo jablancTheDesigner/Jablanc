@@ -1,0 +1,128 @@
+[
+  {
+    "ID":"1",
+    "title": "SWTGLAW.com",
+    "thumbnail":"swtglaw/swtglaw-logo.jpg",
+    "img": [
+      "swtglaw/swtglaw-logo-big.png",
+      "swtglaw/SWTGLAW_email_signatureLOGO.png",
+      "swtglaw/2017-updated-state-registrations.jpg",
+      "swtglaw/swtglaw-desktop.png",
+      "swtglaw/swtglaw-mobile.png"
+    ],
+    "url":"https://www.swtglaw.com",
+    "url-label":"SWTGLAW Site",
+    "services_done": [
+      "Branding",
+      "Web Development",
+      "Responsive Web Design",
+      "Content Management System",
+      "Scheduling System"
+    ],
+    "description":"",
+    "category":"Web Development & Branding",
+    "date_added_iso":"2018-11-11T01:11:14+0000",
+    "date_added_timestamp":"1541898674"
+  },
+  {
+      "ID":"2",
+      "title": "Sherrie B's Treats",
+      "thumbnail":"sherrie-b/sherriebcompany.jpg",
+      "img": [
+        "sherrie-b/sherrie-bs.png",
+        "sherrie-b/sherrie-bs-white.png"
+      ],
+      "services_done": [
+        "Branding"
+      ],
+      "description":"",
+      "category":"Branding",
+      "date_added_iso":"2018-11-11T01:11:14+0000",
+      "date_added_timestamp":"1541898674"
+  },
+  {
+      "ID":"3",
+      "title": "Tripnado.com",
+      "thumbnail":"tripnado/tripnado-thumbnail.jpg",
+      "img": [
+        "tripnado/earn-cash.jpg",
+        "tripnado/tripnado-logo.png",
+        "tripnado/tripnado-login.png",
+        "tripnado/tripnado-mobile.png"
+      ],
+      "url":"https://www.tripnado.com",
+      "url-label":"Trinado Site",
+      "services_done": [
+        "Branding",
+        "Web Design",
+        "Web Development"
+      ],
+      "description":"",
+      "category":"Web Development & Branding",
+      "date_added_iso":"2018-11-11T01:11:14+0000",
+      "date_added_timestamp":"1541898674"
+  },
+  {
+      "ID":"4",
+      "title": "Hoteldollars.com",
+      "thumbnail":"hoteldollars/hoteldollars-thumbnail.jpg",
+      "img": [
+        "hoteldollars/hoteldollars-thumbnail.jpg",
+        "hoteldollars/hoteldollars-login.png",
+        "hoteldollars/hoteldollars-mobile.png"
+      ],
+      "url":"https://www.hoteldollars.com",
+      "url-label":"Hoteldollars Site",
+      "services_done": [
+        "Branding",
+        "Web Design",
+        "Web Development"
+      ],
+      "description":"",
+      "category":"Web Development & Branding",
+      "date_added_iso":"2018-11-11T01:11:14+0000",
+      "date_added_timestamp":"1541898674"
+  },
+  {
+      "ID":"5",
+      "title": "Refertrips.com",
+      "thumbnail":"refertrips/thumbnail-ste.jpg",
+      "img": [
+        "refertrips/logo-white-bg.png",
+        "refertrips/refertrips-desktop-laptop.png",
+        "refertrips/refertrips-mobile.png"
+      ],
+      "url":"https://www.refertrips.com",
+      "url-label":"Refertrips Site",
+      "services_done": [
+        "Branding",
+        "Web Design",
+        "Web Development"
+      ],
+      "description":"",
+      "category":"Web Development & Branding",
+      "date_added_iso":"2018-11-11T01:11:14+0000",
+      "date_added_timestamp":"1541898674"
+  },
+  {
+      "ID":"6",
+      "title": "Globaltrips.com",
+      "thumbnail":"globaltrips/thumbnail-ste.jpg",
+      "img": [
+        "globaltrips/globaltrips.club.png",
+        "globaltrips/globaltrips-desktop.png",
+        "globaltrips/globaltrips-mobile.png"
+      ],
+      "services_done": [
+        "Branding",
+        "Web Design",
+        "Web Development"
+      ],
+      "url":"https://www.globaltrips.com",
+      "url-label":"Globaltrips Site",
+      "description":"",
+      "category":"Web Development & Branding",
+      "date_added_iso":"2018-11-11T01:11:14+0000",
+      "date_added_timestamp":"1541898674"
+  }
+]

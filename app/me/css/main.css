@@ -1,0 +1,345 @@
+  /*ReklameScript-Regular_DEMO*/
+  @font-face {
+    font-family: reklame;
+    src: url(../css/fonts/ReklameScript-Regular_DEMO.otf);
+}
+
+
+  html,body{
+      height:100%;
+      min-height:100%;
+      /*font-family: 'Playfair Display', serif;*/
+      /*font-family: 'Encode Sans Condensed', sans-serif;*/
+      font-family: 'Roboto', sans-serif;
+     } 
+
+     .page{
+     	min-height:100vh;
+     }
+
+     nav:before{
+     	content:'';
+     	position:absolute;
+     	top:0;
+     	left:0;
+     	width:100%;
+     	height:100%;
+     	background:linear-gradient(to right, rgba(0,0,0,0),rgba(0,0,0,0.05));
+     	z-index:-1;
+     }
+
+
+
+     .navbar-brand{
+     	font-family: 'reklame';
+     	font-size:1.9rem;
+     	letter-spacing: 0.05rem;
+     	background:#fff;
+     	border-right:7px solid #000;
+     }
+
+     .hero{
+
+      /*background-image:url(../img/hero-bg-temp-2.jpg);*/
+      background:transparent;
+      background-size:cover;
+      min-height:850px;
+      background-position:center bottom;
+      padding-bottom:100px;
+      overflow-x:hidden;
+      width:100%;
+      position:relative;
+      padding-top:0px;
+      padding-bottom:0rem;
+     }
+
+     .hero > .container{
+		display:flex;
+		min-height:calc(100vh - 66.13px);
+		align-items: center;
+     }
+
+     .heroTitle{
+     	line-height: 1.1;
+     }
+
+     .heroTitle span{
+     	font-weight:bold;
+     	text-transform: capitalize;
+     	letter-spacing: -0.03em;
+     	font-size:4.5rem;
+     	/*color:#000 !important;*/
+     }
+
+     .heroSectionText{
+     	font-size:36px;
+     	font-weight:300;
+     }
+
+     .bgText{
+     	position:absolute;
+     	right:-2.5px;
+     	top:8rem;
+     	text-align:right;
+     	font-size:4em;
+     	font-weight:300;
+     	line-height:1;
+     	opacity:0.25;
+     	letter-spacing: -0.03em;
+
+     }
+		
+
+	.main--nav li {
+		min-width:75px;
+		text-align:center;
+		padding-bottom:5px;
+		border-bottom:2px solid transparent;
+	}
+
+	.main--nav li:hover,
+	.main--nav li.active {
+		border-bottom:2px solid #fff;
+		text-decoration: line-through;
+	}
+
+	.main--nav li a{
+		text-align:center;
+		font-weight:bold;
+		font-size:14px;
+		letter-spacing: -0.03em;
+	}
+
+
+     @media screen and (max-width:600px){
+     	.bgText{
+     		position:static;
+     		font-size:2.5em;
+     		text-align:center;
+     		margin-top:10px;
+     	}
+     	.heroTitle span{
+     		font-size:3rem;
+     	}
+     	    #about #me {
+     	width:200px;
+     }
+     }
+
+     .scrollDown{
+     	opacity:0.5;
+     }
+
+     #about{
+     	/*background-image:url("https://www.transparenttextures.com/patterns/brick-wall.png");;*/
+     	background-position:top left;
+     	background-repeat:repeat;
+     	overflow-x:hidden; 
+     	padding-top:35px !important;
+     }
+
+	.bg-textOverlay{
+		position:absolute;
+		bottom:100%;
+		left:-10px;
+		font-size:55px;
+		color:#231f20;
+		opacity: 0.1;
+		font-weight:700;
+		font-family: 'reklame';
+		margin-bottom:-1.5rem;
+		text-transform: none;
+		letter-spacing: 0.1rem;
+	}
+	.meaningTitle,.meaningText{
+		/*font-family: 'reklame';*/
+		letter-spacing: -0.03rem;
+		margin-bottom:0px;
+	}
+
+	.sectionTitle{
+		font-weight:700;
+		font-size:2em;
+		position:relative;
+		text-transform: uppercase;
+		letter-spacing: 0.5em;
+	}
+
+	.aboutContent p{
+		font-size:16px;
+		color:#777;
+		line-height: 19px;
+		font-weight:300;
+	}
+
+
+	.galleryWork{
+		width:100%;
+		min-height:inherit;
+		display:flex;
+		flex-wrap: wrap;
+	}
+
+	.galleryWork{
+			width:100%;
+			min-height:inherit;
+			display:flex;
+			    flex-wrap: wrap;
+		}
+		.work{overflow:hidden;}
+
+		.work:hover{
+			text-decoration:none;
+		}
+	
+	@media screen and (min-width:768px){
+		
+		.work{
+			width:100%;
+			max-width:25%;
+			background:#fff;
+			outline:1px solid #eee;
+			height:300px;
+			display:flex;
+			    flex-wrap: wrap;
+			    align-items: flex-end;
+			    justify-content: center;
+		}
+	}
+
+	@media screen and (max-width:767px) and (min-width:480px){
+		
+		.work{
+			width:100%;
+			max-width:50%;
+			background:#fff;
+			outline:1px solid #eee;
+			height:300px;
+			display:flex;
+			    flex-wrap: wrap;
+			    align-items: center;
+			    justify-content: center;
+		}
+	}
+
+	@media screen and (max-width:479px){
+		.galleryWork{
+			width:100%;
+			min-height:inherit;
+			display:flex;
+			    flex-wrap: nowrap;
+			    flex-direction: column;
+		}
+
+		.work{
+			min-height:40vw;
+			background:#fff;
+			border-bottom:1px solid #eee;
+		}
+	}
+	
+
+	@media screen and (min-width:480px){
+		.work:hover .workOverlay{
+		position:relative;
+		display:flex;
+		opacity:1;
+		background:rgba(0,0,0,0.8);
+	}
+
+		.work:hover .workOverlay p{
+		position:relative;
+		animation: mymove 750ms linear;
+		opacity:1;
+	}
+
+	.workOverlay{
+		position:relative;
+		width: inherit;
+		height:100%;
+		min-height:inherit;
+		display:none;
+		opacity:0;
+		transition:750ms linear;
+		align-items: center;
+		justify-content: center;
+		font-size:30px;
+		padding:0 20px;
+		color:#999;
+		font-weight:400;
+		letter-spacing: -0.03rem;
+		background:rgba(0,0,0,0);
+	}
+	.workOverlay p{
+		opacity:0;
+	}
+	}
+
+	@keyframes mymove {
+	    0% {
+	    	opacity:0;
+	    	bottom:0;
+	    }
+	    50% {
+	    	opacity:0.5;
+	    	bottom:15px;
+	    }
+	    100%{
+	    	opacity:1;
+	    	bottom:0;
+	    } 
+	}
+
+	@keyframes opacitMe {
+	    0% {
+	    	opacity:0;
+	    }
+	    50% {
+	    	opacity:0.5;
+	    }
+	    100%{
+	    	opacity:1;
+	    } 
+	}
+
+	/* width */
+::-webkit-scrollbar {
+    width: 20px;
+}
+
+/* Track */
+::-webkit-scrollbar-track {
+    background: #f1f1f1; 
+}
+
+/* Handle */
+::-webkit-scrollbar-thumb {
+    background: #007bff; 
+    border-left:9px solid #f1f1f1;
+    border-right:9px solid #f1f1f1;
+    border-top:20px solid #f1f1f1;
+    border-bottom:20px solid #f1f1f1;
+	transition: 750ms linear;
+}
+
+/* Handle on hover */
+::-webkit-scrollbar-thumb:hover {
+    background: #007bff; 
+    border-left:5px solid #f1f1f1;
+    border-right:5px solid #f1f1f1;
+    border-top:20px solid #f1f1f1;
+    border-bottom:20px solid #f1f1f1;
+    transition: 750ms linear;
+}
+
+
+	
+
+
+	
+
+
+
+
+
+  
